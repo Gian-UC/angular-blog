@@ -14,13 +14,13 @@ export const dataFake = [
   {
     "id":"3",
     "title": "Trailer do Épico Dourado - A Vida Desperta da Noite",
-    "description": "Nova Personagem, Castorice",
+    "description": "Nova trailer do épico dourado da Castorice",
     "photoCover":"https://fastcdn.hoyoverse.com/content-v2/hkrpg/155369/28a6d4734a5b20552912c585eb621bfd_3962383829974535012.jpg"
   },
   {
     "id":"4",
     "title": "Conhecendo mais sobre a nova versão de Star Rail 3.2",
-    "description": "Novoss personagens, novas histórias e novos eventos",
+    "description": "Novos personagens, novas histórias e novos eventos",
     "photoCover":"https://fastcdn.hoyoverse.com/content-v2/hkrpg/155350/ea3694776fc4aa8f97e6de7f35c46a85_4041990029095834982.png"
   }
 ]
