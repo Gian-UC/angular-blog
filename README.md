@@ -1,27 +1,24 @@
-# AngularBlog
+# Star Rail News - Angular Blog 🚀🌌
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este projeto é um blog temático do universo de **Honkai: Star Rail**, desenvolvido com Angular 14.1.2. Aqui você encontra as últimas atualizações, trailers, personagens e novidades do jogo com uma interface linda, envolvente e responsiva.
 
-## Development server
+![[Star Rail News Screenshot](src/assets/screenshot.png)](https://64.media.tumblr.com/47a28633a6b1a5be4dee762eeba993c2/ea215525f05066d4-2d/s2048x3072/6125114489df85644feecebf132c3e3fa09e7050.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🌠 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Interface visual com **papel de parede estilizado**
+- Sistema de **notícias com imagens e títulos**
+- Layout com **cards translúcidos**, facilitando a leitura
+- Responsivo e adaptável para diferentes telas
+- Navegação intuitiva com links para GitHub, Discord, etc.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Servidor de Desenvolvimento
 
-## Running unit tests
+Execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng serve
