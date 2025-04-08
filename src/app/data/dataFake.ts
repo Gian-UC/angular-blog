@@ -1,14 +1,26 @@
 export const dataFake = [
   {
     "id":"1",
-    "title": "NOVO HOMEM DE FERRO EM 3D",
-    "description": "marvel anuncia um novo filme do homem de ferro, confira",
-    "photoCover":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F51FA9F6CBD9F0C9B1394B1CC0A6A842D07091318674E234CD33CBF7C28CDC3/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    "title": "Nova Atualização do Honkai Star Rail (3.2)",
+    "description": "Confira as novidades do novo patch do jogo no site oficial da HoYoverse ",
+    "photoCover":"https://64.media.tumblr.com/47a28633a6b1a5be4dee762eeba993c2/ea215525f05066d4-2d/s2048x3072/6125114489df85644feecebf132c3e3fa09e7050.png"
   },
   {
     "id":"2",
-    "title": "Nova Série anunciada no Disney +",
-    "description": "bla blabla",
-    "photoCover":"https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+    "title": "Trailer da nova personagem, Castorice",
+    "description": "Nova Personagem, Castorice",
+    "photoCover":"https://fastcdn.hoyoverse.com/content-v2/hkrpg/155395/dd39973f4b1619c508ec34061bd4c0ae_5518402028306373976.jpg"
+  },
+  {
+    "id":"3",
+    "title": "Trailer do Épico Dourado - A Vida Desperta da Noite",
+    "description": "Nova Personagem, Castorice",
+    "photoCover":"https://fastcdn.hoyoverse.com/content-v2/hkrpg/155369/28a6d4734a5b20552912c585eb621bfd_3962383829974535012.jpg"
+  },
+  {
+    "id":"4",
+    "title": "Conhecendo mais sobre a nova versão de Star Rail 3.2",
+    "description": "Novoss personagens, novas histórias e novos eventos",
+    "photoCover":"https://fastcdn.hoyoverse.com/content-v2/hkrpg/155350/ea3694776fc4aa8f97e6de7f35c46a85_4041990029095834982.png"
   }
 ]

@@ -4,11 +4,20 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: #111111;
-  color:white;
+  
+  color:black;
   font-family: 'Open Sans', sans-serif;
 }
 
 a{
   text-decoration: none;
+}
+
+body {
+  background-image: url('https://64.media.tumblr.com/47a28633a6b1a5be4dee762eeba993c2/ea215525f05066d4-2d/s2048x3072/6125114489df85644feecebf132c3e3fa09e7050.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
 }
