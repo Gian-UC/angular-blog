@@ -1,0 +1,30 @@
+.reactions-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .reaction {
+    background: #1e1e2e;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background 0.3s;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 0 10px #7c4dff44;
+  }
+  
+  .reaction:hover {
+    background: #33334f;
+  }
+  
+  .emoji {
+    font-size: 18px;
+  }
+  

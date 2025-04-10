@@ -10,13 +10,17 @@
     </div>
 
     <div class="small-card__title">
-      <h1><a [routerLink]="['content', Id]" >{{ cardTitle }}</a></h1>
+      <h1><a href="https://www.youtube.com/watch?v=0FPvfC8g6-Q&t=1s" target="_blank">{{ cardTitle }}</a></h1>
     </div>
+
+    
   </div>
 
   <div class="container__small-card__separator">
     <hr>
   </div>
+
+  <app-reactions [articleId]="Id"></app-reactions>
 
 </div>
 

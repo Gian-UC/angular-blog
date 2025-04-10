@@ -1,0 +1,10 @@
+<div class="reactions-container">
+    <div *ngFor="let reaction of reactions; let i = index"
+         class="reaction"
+         (click)="react(i, $event)">
+      <span class="emoji">{{ reaction.emoji }}</span>
+      <span class="count">{{ reaction.count }}</span>
+      <span class="label">{{ reaction.label }}</span>
+    </div>
+  </div>
+  
