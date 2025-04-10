@@ -38,7 +38,8 @@ VS Code com extensões otimizadas (Tabnine, Prettier, Go Live)
 Para rodar o projeto no seu ambiente de desenvolvimento:
 
 # Instalar dependências e Angular CLI
-npm install
+npm install,
+
 npm install -g @angular/cli
 
 # Iniciar o servidor de desenvolvimento
