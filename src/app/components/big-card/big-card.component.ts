@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
 
+
   @Input()
   photoCover:string =""
   @Input()

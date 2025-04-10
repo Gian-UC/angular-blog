@@ -5,19 +5,47 @@
   padding:0;
   box-sizing: border-box;
   
-  color:rgb(55, 0, 255);
-  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+  font-family: 'Orbitron', sans-serif;
 }
 
 a{
   text-decoration: none;
 }
 
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
 body {
-  background-image: url('https://64.media.tumblr.com/47a28633a6b1a5be4dee762eeba993c2/ea215525f05066d4-2d/s2048x3072/6125114489df85644feecebf132c3e3fa09e7050.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.theme-toggle:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
